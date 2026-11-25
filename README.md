@@ -1,2 +1,3 @@
 # Jojo
-
+Use react and tailwind css,
+built a burger website named Jojo's Burger.The theme of the website should be black and yellow.The person owning the Jojo's Burger stall is "Devesh Gaikwad", we are making the website for an food stall which sells burger.Add diiferent sections like home,menu,contact,about us. I'll provide u the menu.Also I'll provide u the assests(immgs,logo,owner photo).i want some animations on the website also i should be completely responsive,90% of users will be operating the website on phones.Also create a btn order now which will direct the users in a section where there will be icons links to zomato,swiggy,call...I want the hero section to be outstanding.and the website should be smooth.
