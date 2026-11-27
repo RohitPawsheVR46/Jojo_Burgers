@@ -1,3 +1,40 @@
-# Jojo
-Use react and tailwind css,
-built a burger website named Jojo's Burger.The theme of the website should be black and yellow.The person owning the Jojo's Burger stall is "Devesh Gaikwad", we are making the website for an food stall which sells burger.Add diiferent sections like home,menu,contact,about us. I'll provide u the menu.Also I'll provide u the assests(immgs,logo,owner photo).i want some animations on the website also i should be completely responsive,90% of users will be operating the website on phones.Also create a btn order now which will direct the users in a section where there will be icons links to zomato,swiggy,call...I want the hero section to be outstanding.and the website should be smooth.
+# Jojo's Burger
+
+A mobile-first restaurant website for Jojo's Burger, Devesh Gaikwad's burger stall in Chanakya Nagar, Kalyan West. Built with React, Vite, and Tailwind CSS, with custom CSS for the visual design, responsive layouts, and animations.
+
+## Features
+
+- Responsive home page with animated hero and navigation
+- Menu with veg and non-veg burgers and fries, including prices
+- About section featuring Devesh at the stall
+- Order links and a direct phone link
+- Customer review form that opens WhatsApp with a prefilled message to Devesh
+- Location and daily operating hours with a Google Maps search link
+- Reduced-motion support
+
+## Run locally
+
+Requirements: Node.js and npm.
+
+```sh
+npm install
+npm run dev
+```
+
+Vite prints the local development URL in the terminal.
+
+## Production build
+
+```sh
+npm run build
+npm run preview
+```
+
+## Project files
+
+- `src/App.jsx` — page sections, menu data, navigation, and review form
+- `src/index.css` — Tailwind import, site styles, responsive breakpoints, and animations
+- `src/main.jsx` — React entry point
+- `public-owner.png` — owner/stall photo used in the About section
+
+The menu and contact details are maintained in `src/App.jsx`. The review form launches WhatsApp with the review prefilled; the customer must tap **Send** in WhatsApp. Reviews are not stored on a server.
