@@ -35,6 +35,6 @@ npm run preview
 - `src/App.jsx` — page sections, menu data, navigation, and review form
 - `src/index.css` — Tailwind import, site styles, responsive breakpoints, and animations
 - `src/main.jsx` — React entry point
-- `public-owner.png` — owner/stall photo used in the About section
+- `src/assets/owner-stall.png` — owner/stall photo used in the About section
 
 The menu and contact details are maintained in `src/App.jsx`. The review form launches WhatsApp with the review prefilled; the customer must tap **Send** in WhatsApp. Reviews are not stored on a server.

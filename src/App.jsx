@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import ownerPhoto from './assets/owner-stall.png'
+import burgerImg from './assets/jojobuf.jpeg'
+import logoImg from './assets/logo-jojo.jpg'
 
 const burgerImage = 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=1200&q=88'
 const friesImage = 'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?auto=format&fit=crop&w=800&q=85'
@@ -13,7 +16,7 @@ function Arrow({ diagonal = false }) {
 }
 
 function Mark() {
-  return <a href="#home" aria-label="Jojo's Burger home" className="brand-mark"><span className="brand-icon">J<span>B</span></span><span className="brand-name">JOJO'S<span>BURGER</span></span></a>
+  return <a href="#home" aria-label="Jojo's Burger home" className="brand-mark"><img className="brand-logo" src={logoImg} alt="Jojo's Burger" /></a>
 }
 
 function App() {
@@ -56,7 +59,7 @@ function App() {
         </div>
         <div className="hero-art">
           <div className="hero-image-halo" />
-          <div className="hero-photo-frame"><img src={burgerImage} alt="Juicy double cheeseburger piled high with lettuce, tomato and melted cheese" /></div>
+          <div className="hero-photo-frame"><img src={burgerImg} alt="Juicy double cheeseburger piled high with lettuce, tomato and melted cheese" /></div>
           <div className="hero-sticker"><span>100%</span><span>GOOD</span><span>MOOD</span><b>✳</b></div>
           <div className="hero-caption"><span>01 — THE JOJO CLASSIC</span><span>BUILT DIFFERENT. BITES BETTER.</span></div>
           <span className="floating-spark spark-one">✳</span><span className="floating-spark spark-two">✳</span>
@@ -73,7 +76,7 @@ function App() {
 
       <section id="about" className="about-section section-pad">
         <div className="about-copy"><div className="eyebrow"><span className="eyebrow-line" /> A LITTLE ABOUT US</div><h2>One stall.<br />A whole lot<br /><span>of heart.</span></h2><p>Jojo's is Devesh Gaikwad's kind of burger joint: fresh off the grill, full of flavour, and served with a side of good vibes. No fuss. Just proper, satisfying burgers made for real life.</p><div className="signature">Devesh Gaikwad<span>THE GUY BEHIND THE GRILL</span></div></div>
-        <div className="about-art"><div className="about-frame"><img src="/public-owner.png" alt="Devesh Gaikwad at the Jojo's Burger stall" loading="lazy" /></div><div className="about-stamp">GOOD<br />FOOD.<br /><span>GOOD</span><br />PEOPLE.</div><span className="about-index">JOJO'S BURGER — EST. WITH LOVE</span></div>
+        <div className="about-art"><div className="about-frame"><img src={ownerPhoto} alt="Devesh Gaikwad at the Jojo's Burger stall" loading="lazy" /></div><div className="about-stamp">GOOD<br />FOOD.<br /><span>GOOD</span><br />PEOPLE.</div><span className="about-index">JOJO'S BURGER — EST. WITH LOVE</span></div>
       </section>
 
       <section id="order" className="order-section section-pad"><div className="order-deco">✳</div><div className="eyebrow"><span className="eyebrow-line" /> YOUR NEXT GREAT DECISION</div><h2>Hungry yet?</h2><p>Good. We're just getting started. Reach out and let's get you something delicious.</p><div className="order-options"><a className="order-option" href="https://zomato.onelink.me/xqzv/llyhnn37" target="_blank" rel="noreferrer"><span className="order-icon zomato-icon">z</span><span><b>Find us on Zomato</b><small>Order your favourites</small></span><Arrow diagonal /></a><a className="order-option" href="#visit"><span className="order-icon call-icon">⌖</span><span><b>Visit the stall</b><small>See location &amp; hours</small></span><Arrow /></a></div></section>
