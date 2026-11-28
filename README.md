@@ -1,6 +1,6 @@
 # Jojo's Burger
 
-A mobile-first restaurant website for Jojo's Burger, Devesh Gaikwad's burger stall in Chanakya Nagar, Kalyan West. Built with React, Vite, and Tailwind CSS, with custom CSS for the visual design, responsive layouts, and animations.
+A mobile-first restaurant website for Jojo's Burger, Devesh Gaikwad's burger stall in Chanakya Nagar, Kalyan West.Built with React, Vite, and Tailwind CSS, with custom CSS for the visual design, responsive layouts, and animations.
 
 ## Features
 
